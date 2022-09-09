@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="left-nav">
+            <div class="logo-container">
+                <img class="logo-img" src="https://www.gstatic.com/images/branding/product/2x/docs_2020q4_48dp.png"
+                    alt="DocLogo">
+            </div>
+            <div class="sec-left-nav">
+                <input type="text" class="doc-title" placeholder="Untitled document" />
+                <ul class="nav-links-container">
+                    <li>File</li>
+                    <li>Edit</li>
+                    <li>View</li>
+                    <li>Insert</li>
+                    <li>Format</li>
+                    <li>Tools</li>
+                    <li>Extensions</li>
+                    <li>Help</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="right-nav">
+            <div class="message">
+                <button>
+                    <i class="fa-regular fa-message"></i>
+                </button>
+            </div>
+
+            <div class="meet">
+                <img src="./icons/meet.png" alt="">
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+
+            <div class="share">
+                <button class="share-btn">
+                    <i class="fa-solid fa-lock"></i>
+                    <p>
+                        Share
+                    </p>
+                </button>
+            </div>
+
+            <div class="avatar">
+                <img src="https://lh3.googleusercontent.com/ogw/AOh-ky3WagK8kUAW2An0XXTge2Gu-bWgsqlXV7JYXZ-16HI=s64-c-mo"
+                    alt="user">
+            </div>
+        </div>
+    </nav>
+    <header class="header">
+        <div class="bottom-nav">
+            <div class="nav-items1">
+                <button>
+                    <i class="fa-solid fa-arrow-rotate-left"></i>
+                </button>
+
+                <button>
+                    <i class="fa-solid fa-arrow-rotate-right"></i>
+                </button>
+
+                <button>
+                    <i class="fa-solid fa-print"></i>
+                </button>
+
+                <button>
+                    <i class="fa-solid fa-spell-check"></i>
+                </button>
+
+                <button class="paint">
+                    <i class="fa-solid fa-paint-roller"></i>
+                </button>
+            </div>
+
+            <div>
+                <button>
+                    <p class="percent">
+                        100%
+                        <span>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </span>
+                    </p>
+                </button>
+            </div>
+
+            <div>
+                <button>
+                    <p class="text">
+                        Normal text
+                        <span>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </span>
+                    </p>
+                </button>
+            </div>
+
+            <div class="text-styling">
+                <button>
+                    <p class="font-family">
+                        Arial
+                        <span>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </span>
+                    </p>
+                </button>
+
+                <div class="size">
+                    <button><i class="fa-solid fa-minus"></i></button>
+                    <p>11</p>
+                    <button><i class="fa-solid fa-plus"></i></button>
+                </div>
+
+                <button class="bold">
+                    <i class="fa-solid fa-bold"></i>
+                </button>
+
+                <button class="italic">
+                    <i class="fa-solid fa-italic"></i>
+                </button>
+
+                <button class="underline">
+                    <i class="fa-solid fa-underline"></i>
+                </button>
+
+                <buttom class="text-color">
+                    <p>A</p>
+                    <div class="text-color-below"></div>
+                </buttom>
+
+                <button class="highlighter">
+                    <i class="fa-solid fa-highlighter"></i>
+                </button>
+            </div>
+
+            <div>
+                <button class="link">
+                    <i class="fa-solid fa-link"></i>
+                </button>
+
+                <button class="message">
+                    <i class="fa-solid fa-message"></i>
+                </button>
+
+                <button class="image">
+                    <i class="fa-solid fa-image"></i>
+                    <span>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </span>
+                </button>
+            </div>
+
+            <div>
+                <button class="align-left">
+                    <i class="fa-solid fa-align-left"></i>
+                </button>
+
+                <button class="align-center">
+                    <i class="fa-solid fa-align-center"></i>
+                </button>
+
+                <button class="align-right">
+                    <i class="fa-solid fa-align-right"></i>
+                </button>
+
+                <button class="align-justify">
+                    <i class="fa-solid fa-align-justify"></i>
+                </button>
+            </div>
+
+            <div>
+                <button class="line-height">
+                    <img src="./icons/height.png" alt="">
+                </button>
+            </div>
+
+            <div>
+                <button class="list-check">
+                    <i class="fa-solid fa-list-check"></i>
+                </button>
+
+                <button class="list-ul">
+                    <i class="fa-solid fa-list-ul"></i>
+                </button>
+
+                <button class="list-ol">
+                    <i class="fa-solid fa-list-ol"></i>
+                </button>
+
+                <button class="indent">
+                    <i class="fa-solid fa-indent"></i>
+                </button>
+            </div>
+
+            <button class="clear-formating">
+                <i class="fa-solid fa-text-slash"></i>
+            </button>
+
+        </div>
+        <div class="right-editing-container">
+            <div class="editing-container">
+                <button class="editing">
+                    <i class="fa-solid fa-pencil"></i>
+                    <span>Editing</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                </button>
+            </div>
+            <div class="minimize">
+                <i class="fa-solid fa-angle-up"></i>
+            </div>
+        </div>
+
+    </header>
+
+
+    <main class="document-container">
+        <textarea class="document">
+
+        </textarea>
+    </main>
+</body>
+
+</html>

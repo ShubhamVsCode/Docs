@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+/* global */
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+ul {
+  list-style: none;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0.5rem 1rem;
+}
+.left-nav {
+  display: flex;
+}
+.logo-container {
+}
+
+.logo-img {
+  width: 2.6rem;
+}
+
+.sec-left-nav {
+  margin-left: 1rem;
+}
+.doc-title {
+  border: none;
+  padding: 0.2rem;
+  font-size: 1.2rem;
+  width: fit-content;
+}
+.nav-links-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.85rem;
+  padding: 0.2rem;
+}
+
+.size {
+  display: flex;
+  border: 1px solid #26262626;
+  border-radius: 4px;
+  padding: 0rem !important;
+}
+.size p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.2rem 0.8rem;
+}
+.size button {
+  width: 1rem;
+  border: 1px solid #26262626;
+  border-top: 0;
+  border-bottom: 0;
+  line-height: 0;
+  height: 1rem;
+  padding: 0.8rem;
+  font-size: 0.8rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.size > button:first-child {
+  border-left: 0;
+}
+.size > button:last-child {
+  border-right: 0;
+}
+
+.right-nav {
+  display: flex;
+  align-items: center;
+}
+
+/* message icon bigger */
+.right-nav .message button {
+  font-size: 1.2rem;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+}
+
+.avatar img {
+  width: 2rem;
+  border-radius: 50%;
+}
+
+.right-nav {
+  gap: 1rem;
+}
+
+.meet {
+  padding: 0.5rem 0.3rem 0.5rem 0.6rem;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  border-radius: 5rem;
+  border: 1px solid #26262626;
+}
+.meet img {
+  width: 1.4rem;
+}
+.meet i {
+  font-size: 0.7rem;
+}
+
+.share-btn {
+  padding: 0.6rem 1rem;
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.7rem;
+  background: #2b7de9;
+  border-radius: 0.3rem;
+
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.share-btn p {
+  font-size: 0.9rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #26262626;
+  border-left: 0;
+  border-right: 0;
+}
+
+.bottom-nav {
+  display: flex;
+  align-items: center;
+  padding: 0.4rem 1rem;
+  font-size: 0.8rem;
+  gap: 0.2rem;
+  color: #5e5e5e;
+}
+
+.nav-items1,
+.bottom-nav > div {
+  display: flex;
+  border-right: 1px solid #26262626;
+  padding: 0.2rem;
+  padding-right: 0.4rem;
+}
+.bottom-nav > div > button > i,
+.bottom-nav > button > i {
+  padding: 0 0.5rem;
+  color: #5e5e5e;
+}
+
+.text-styling {
+  padding: 0 !important;
+}
+
+.percent,
+.text {
+  font-size: 0.76rem;
+  margin: 0 0.2rem;
+}
+
+.percent span,
+.text span {
+  margin-left: 0.6rem;
+  margin-right: 0.1rem;
+}
+
+.font-family {
+  font-size: 0.76rem;
+  margin: 0 0.2rem;
+}
+
+.font-family span {
+  margin-left: 2.5rem;
+  margin-right: 0.5rem;
+}
+
+.text-color {
+  font-size: 0.8rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text-color-below {
+  display: block;
+  height: 4px;
+  width: 1.1rem;
+  background: #000;
+}
+
+.size {
+  display: flex;
+}
+
+.line-height {
+  height: 1.1rem;
+  display: flex;
+  align-items: center;
+}
+
+.line-height img {
+  opacity: 0.6;
+  width: 1.9rem;
+}
+
+.bold {
+  margin-left: 0.5rem;
+}
+
+.fa-image {
+  padding-right: 0.1rem !important;
+}
+
+.fa-angle-down {
+  font-size: 0.6rem;
+}
+
+.right-editing-container {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.minimize {
+  font-size: 1rem;
+  padding: 0 1rem;
+  border-left: 1px solid #dfdfdf;
+}
+
+.editing-container {
+  border-radius: 5px;
+  background: #e8f0fe;
+  padding: 0.3rem 0.6rem;
+  display: flex;
+  align-items: center;
+}
+.editing {
+  color: #2b7de9;
+  font-size: 0.75rem;
+  font-weight: 550;
+}
+.editing span {
+  margin: 0 2rem 0 0.2rem;
+}
+
+.document-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  background: rgb(247, 247, 247);
+}
+
+.document {
+  width: 210mm;
+  height: 297mm;
+  box-shadow: 0 0 5px rgb(218, 218, 218);
+  border: 0;
+  outline: none;
+  padding: 5rem;
+  font-size: 15px;
+  border-radius: 10px;
+}
